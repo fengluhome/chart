@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="chart.js"></script>
+</head>
+<body style="background-color: #5f3338;">
+    <canvas id="circle-progress-default" width="77" height="77"></canvas>
+</body>
+<script type="text/javascript">
+
+
+    window.onload = function () {
+        var circle = new circleProgress({
+            id: 'circle-progress-default',
+            progress: 60,
+            bgColor: "rgb(255,255,255)",
+            color: "rgb(69, 189, 125)",
+            textColor: "rgb(255, 255, 255)"
+        });
+        document.body.onclick = function () {
+
+            circle.forceRedraw(80);
+        };
+
+    };
+</script>
+
+</html>

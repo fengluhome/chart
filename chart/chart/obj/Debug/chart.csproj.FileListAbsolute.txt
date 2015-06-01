@@ -1,0 +1,6 @@
+F:\chart\chart\chart\bin\chart.dll.config
+F:\chart\chart\chart\bin\chart.dll
+F:\chart\chart\chart\bin\chart.pdb
+F:\chart\chart\chart\obj\Debug\chart.csprojResolveAssemblyReference.cache
+F:\chart\chart\chart\obj\Debug\chart.dll
+F:\chart\chart\chart\obj\Debug\chart.pdb
